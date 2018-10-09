@@ -9,26 +9,39 @@
 </head>
 
 <body>
-<div class="wrap">
-  <nav>
-    <h1>RamshackleJohnny</h1>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Me</a>
-    <a href="find.html">Find me</a>
-    <a href="ws.html">Work/School</a>
-    <a href="projects.html">Projects</a>
-  </nav>
-
-  <footer>
-    <div>
+  <div class="wrap">
+    <nav>
+      <h1>RamshackleJohnny</h1>
       <a href="index.html">Home</a>
       <a href="about.html">About Me</a>
       <a href="find.html">Find me</a>
       <a href="ws.html">Work/School</a>
       <a href="projects.html">Projects</a>
-    </div>
-  </footer>
-</div>
+    </nav>
+    <article>
+      <div class="slidecontainer">
+        <input type="range" min="1999" max="2018" value="50" class="slider" id="myRange">
+          <p>Value: <span id="year"></span></p>
+      </div>
+      <script>
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("year");
+        output.innerHTML = slider.value;
+        slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+      </script>
+    </article>
+    <footer>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="find.html">Find me</a>
+        <a href="ws.html">Work/School</a>
+        <a href="projects.html">Projects</a>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

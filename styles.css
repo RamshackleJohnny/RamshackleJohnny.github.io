@@ -35,7 +35,16 @@ nav a:hover {
   color: rgb(62, 143, 189);
   font-size: 2em;
 }
-
+/* slider */
+.slidecontainer {
+  width: 100%;
+}
+.slider {
+  width: 100%;
+}
+#year {
+  color: white;
+}
 /* footer styles */
 footer {
   background-color: #00003D;
