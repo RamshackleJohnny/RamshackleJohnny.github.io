@@ -1,0 +1,47 @@
+.wrap {
+  background-color: #00000A;
+}
+
+/* nav bar */
+nav {
+  width: 100%;
+  background-color: #00003D;
+}
+
+nav h1 {
+  color: #4354A3;
+  font-family: 'Shadows Into Light';
+  float: left;
+  padding: 0 20px;
+  position: relative;
+  top: -17px;
+  opacity: 1;
+  font-weight: normal;
+
+}
+
+nav a {
+  font-family: 'Anton', sans-serif;
+  text-decoration: none;
+  display: block;
+  float: left;
+  color: #4354A3;
+  padding: 10px 20px;
+  transition: color 2s ease,
+    font-size 2s ease;
+  font-size: 1em;
+}
+
+nav a:hover {
+  color: rgb(62, 143, 189);
+  font-size: 2em;
+}
+
+/* footer styles */
+footer {
+  background-color: #00003D;
+}
+
+footer a {
+  font-family: 'Josefin Sans', sans-serif;
+}

@@ -1,7 +1,12 @@
 Portfolio Design
-
+Color Scheme:
+#00000A
+#2126A1
+#4354A3
+#071325
+#727571
 Fonts:
-<link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans|Shadows+Into+Light" rel="stylesheet">
 
 Headings: font-family: 'Anton', sans-serif;
 Other-text: font-family: 'Josefin Sans', sans-serif;
@@ -56,8 +61,7 @@ Welcome message
 Come up with a creative (preferably interactive) attention grabber
 
 About Me
-Basic Life stuff, write this in later
-Basic Future stuff
+Timeline slider: Answer questions about me along timeline of life
 
 Find me
   https://github.com/RamshackleJohnny/
