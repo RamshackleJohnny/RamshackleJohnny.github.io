@@ -11,10 +11,9 @@ Header:
   Nav bar:
     Home
     About me
-    Achivments
-      - Insert Specifics
-    Work Experience
-    Projects in progress
+    Find me
+    Work/School
+    Projects
       - Insert Specifics
 
 Footer: Short Nav links
@@ -42,8 +41,37 @@ ________________________________________________________________________
           |         |                            |                    |
           |         |                            |                    |
         About me    |                            |                    |
-                  Achivments               Work Experience           PIP
-                    |                                                 |
-                    |                                                 |
-                    |                                                 |
-                  Specifics                                       Specifics
+                  Find me                    Work/School           Projects
+                                                                      |
+                                                                      |
+                                                                      |
+                                                                  Specifics
+
+
+
+
+Home page
+Welcome message
+  Welcome to my site! I've done very little with my life, and i've got the portfolio to prove it!
+Come up with a creative (preferably interactive) attention grabber
+
+About Me
+Basic Life stuff, write this in later
+Basic Future stuff
+
+Find me
+  https://github.com/RamshackleJohnny/
+  Email :bitingprofessionalism@gmail.com
+  Create Form
+
+Work/School
+
+Work:
+Golf Adventure: 3 years Management
+Custom Happy: Learned about product sales and production
+
+School :
+BCTHS: Multimedia Digital Design
+TSCT: CSET (In progress)
+
+Projects:
