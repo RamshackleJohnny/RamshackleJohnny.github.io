@@ -1,0 +1,48 @@
+Portfolio Design
+
+Fonts:
+<link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans" rel="stylesheet">
+
+Headings: font-family: 'Anton', sans-serif;
+Other-text: font-family: 'Josefin Sans', sans-serif;
+
+Header:
+  Title: Johnny's Portfolio
+  Nav bar:
+    Home
+    About me
+    Achivments
+      - Insert Specifics
+    Work Experience
+    Projects in progress
+      - Insert Specifics
+
+Footer: Short Nav links
+        Copyright
+
+Structure
+          Logo                                    Nav
+        |_______________________________________________|
+        |                                               |
+        |                                               |
+        |                                               |
+        |                 Content                       |
+        |                                               |
+        |                                               |
+        |_______________________________________________|
+        |                 Footer                        |
+        |_______________________________________________|
+
+
+  Site map
+        -              Home
+          |         |                            |                    |
+          |         |                            |                    |
+          |         |                            |                    |
+          |         |                            |                    |
+        About me    |                            |                    |
+                  Achivments               Work Experience           PIP
+                    |                                                 |
+                    |                                                 |
+                    |                                                 |
+                  Specifics                                       Specifics
