@@ -17,7 +17,6 @@ nav h1 {
   top: -17px;
   opacity: 1;
   font-weight: normal;
-
 }
 
 nav a {
@@ -28,7 +27,7 @@ nav a {
   color: #4354A3;
   padding: 10px 20px;
   transition: color 2s ease,
-    font-size 2s ease;
+  font-size 2s ease;
   font-size: 1em;
 }
 
@@ -44,4 +43,6 @@ footer {
 
 footer a {
   font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-decoration: none;
 }
