@@ -12,9 +12,8 @@ nav h1 {
   color: #4354A3;
   font-family: 'Shadows Into Light';
   float: left;
-  padding: 0 20px;
+  margin: 0 20px;
   position: relative;
-  top: -17px;
   opacity: 1;
   font-weight: normal;
 }
@@ -25,7 +24,7 @@ nav a {
   display: block;
   float: left;
   color: #4354A3;
-  padding: 10px 20px;
+  margin: 10px 20px;
   transition: color 2s ease,
   font-size 2s ease;
   font-size: 1em;
@@ -44,6 +43,15 @@ nav a:hover {
 }
 #year {
   color: white;
+}
+/* main styles */
+main {
+  max-width: 70%;
+  min-width: 20%;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  clear: left;
 }
 /* footer styles */
 footer {
