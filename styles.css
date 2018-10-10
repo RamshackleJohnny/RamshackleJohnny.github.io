@@ -59,6 +59,18 @@ main {
 }
 
 /* find me page styles */
+.thestorm {
+  background-color: rgb(148, 122, 65);
+  opacity: 0.3;
+  top: 0px;
+  position: relative;
+  height: 110%;
+}
+
+.quote h1 {
+  font-size: 1.5em;
+}
+
 .findfoot {
   border: 5px solid rgb(148, 122, 65);
   border-radius: 0 280% 0 0;
@@ -78,10 +90,11 @@ main {
 
 .well {
   position: relative;
-  bottom: -130px;
+  bottom: -150px;
   z-index: 1;
   opacity: 0;
   transition: opacity 5s ease;
+  margin: 0 auto;
 }
 
 .well:hover {
@@ -90,10 +103,6 @@ main {
 
 .quote {
   height: 500px;
-  background-image: url(images/sand.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .github {
@@ -102,7 +111,7 @@ main {
   position: relative;
   top: -250px;
   left: -600px;
-  font-size: 2em;
+  font-size: 4em;
   opacity: 0;
   transition: opacity 5s ease;
   font-family: 'Shadows Into Light';
@@ -118,7 +127,7 @@ main {
   right: -500px;
   opacity: 0;
   transition: opacity 5s ease;
-  font-size: 1.5em;
+  font-size: 3em;
   font-family: 'Shadows Into Light';
 }
 
@@ -126,6 +135,20 @@ main {
   opacity: 1;
 }
 
+.sandstorm {
+  color: rgb(148, 122, 65);
+  user-select: none;
+  white-space: pre;
+  line-height: .5;
+}
+
+.storm {
+  width: 100%;
+}
+
+.findwrap {
+  background-color: rgba(148, 122, 65, 0.9);
+}
 /* footer styles */
 footer {
   background-color: #00003D;
