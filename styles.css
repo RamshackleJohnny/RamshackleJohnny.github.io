@@ -67,11 +67,9 @@ article {
 .thestorm {
   background-color: rgb(148, 122, 65);
   opacity: 0.3;
-  top: 0px;
+  top: 40px;
   position: relative;
   height: 110%;
-  pointer-events: none;
-  z-index: -1;
 }
 
 .quote h1 {
