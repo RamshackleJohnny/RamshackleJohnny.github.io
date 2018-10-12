@@ -226,7 +226,7 @@ footer a {
 }
 
 .timeline .timeline-item .timeline-icon {
-  background: #fefefe;
+  background: #2126A1;
   border-radius: 50%;
   height: 50px;
   left: 50%;
@@ -302,7 +302,6 @@ footer a {
 
   .timeline .timeline-item .timeline-content::before, .timeline .timeline-item .timeline-content.right::before {
     border-left: 0;
-    border-right: 7px solid #fefefe;
     left: 10%;
     margin-left: -6px;
   }
