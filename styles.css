@@ -140,7 +140,21 @@ article {
 .email:hover {
   opacity: 1;
 }
+.bandcamp {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 475px;
+  right: -200px;
+  opacity: 0;
+  transition: opacity 5s ease;
+  font-size: 3em;
+  font-family: 'Shadows Into Light';
+}
 
+.bandcamp:hover {
+  opacity: 1;
+}
 .sandstorm {
   color: rgb(148, 122, 65);
   user-select: none;
