@@ -1,7 +1,10 @@
 .wrap {
   background-color: #00000A;
 }
-
+.wrapcontact {
+  height: 500px;
+    background-color: #00000A;
+}
 /* nav bar */
 nav {
   width: 100%;
@@ -75,11 +78,9 @@ article {
 .thestorm {
   background-color: rgb(148, 122, 65);
   opacity: 0.3;
-  top: 0px;
+  top: 40px;
   position: relative;
   height: 110%;
-  pointer-events: none;
-  z-index: -1;
 }
 
 .quote h1 {
@@ -151,6 +152,22 @@ article {
   opacity: 1;
 }
 
+.bandcamp {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  bottom: 475px;
+  right: -200px;
+  opacity: 0;
+  transition: opacity 5s ease;
+  font-size: 3em;
+  font-family: 'Shadows Into Light';
+}
+
+.bandcamp:hover {
+  opacity: 1;
+}
+
 .sandstorm {
   color: rgb(148, 122, 65);
   user-select: none;
@@ -167,11 +184,58 @@ article {
   background-color: rgba(148, 122, 65, 0.9);
 }
 
-.no {}
+.no {
+  right: 0;
+}
 
+.hills a, .hills p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  display: block;
+  clear: left;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.hillfoot {
+  width: 50%;
+}
+/* form styles */
+form {
+  display: block;
+  margin: 15px auto;
+}
+.formstyles {
+  font-size: 15px;
+  word-wrap: break-word;
+  display: block;
+  margin: 5px auto;
+  width: 100;
+  padding: 15px;
+}
+input {
+  margin-left: 10px;
+}
+.foorm {
+  background-color: rgb(29, 38, 47);
+  width: 50%;
+  top: 50px;
+  clear: left;
+  margin: 0 auto;
+}
+.contact {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+#submit {
+  margin: 25px 25px 25px 35px;
+}
 /* footer styles */
 footer {
   background-color: #00003D;
+  bottom: 0;
 }
 
 footer a {
