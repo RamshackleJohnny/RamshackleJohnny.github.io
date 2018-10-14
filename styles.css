@@ -1,7 +1,10 @@
 .wrap {
   background-color: #00000A;
 }
-
+.wrapcontact {
+  height: 500px;
+    background-color: #00000A;
+}
 /* nav bar */
 nav {
   width: 100%;
@@ -140,6 +143,7 @@ article {
 .email:hover {
   opacity: 1;
 }
+
 .bandcamp {
   color: white;
   text-decoration: none;
@@ -155,6 +159,7 @@ article {
 .bandcamp:hover {
   opacity: 1;
 }
+
 .sandstorm {
   color: rgb(148, 122, 65);
   user-select: none;
@@ -172,8 +177,9 @@ article {
 }
 
 .no {
-right: 0;
+  right: 0;
 }
+
 .hills a, .hills p {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
@@ -183,12 +189,45 @@ right: 0;
   padding: 5px;
   margin-left: 5px;
 }
+
 .hillfoot {
   width: 50%;
+}
+/* form styles */
+form {
+  display: block;
+  margin: 15px auto;
+}
+.formstyles {
+  font-size: 15px;
+  word-wrap: break-word;
+  display: block;
+  margin: 5px auto;
+  width: 100;
+  padding: 15px;
+}
+input {
+  margin-left: 10px;
+}
+.foorm {
+  background-color: rgb(29, 38, 47);
+  width: 50%;
+  top: 50px;
+  clear: left;
+  margin: 0 auto;
+}
+.contact {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+#submit {
+  margin: 25px 25px 25px 35px;
 }
 /* footer styles */
 footer {
   background-color: #00003D;
+  bottom: 0;
 }
 
 footer a {
