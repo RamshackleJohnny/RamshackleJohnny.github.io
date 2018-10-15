@@ -1,5 +1,5 @@
 .wrap {
-  background-color: #00000A;
+  background-color: #010122;
 }
 
 .wrapcontact {
@@ -7,6 +7,9 @@
   background-color: #00000A;
 }
 
+html {
+  background-color: black;
+}
 /* nav bar */
 nav {
   width: 100%;
