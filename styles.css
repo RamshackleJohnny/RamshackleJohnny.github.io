@@ -252,11 +252,13 @@ input {
   clear: left;
   margin: 25px;
 }
+
 .proj p {
   color: white;
   margin-left: 25px;
   width: 45%;
 }
+
 /* footer styles */
 footer {
   background-color: #00003D;
