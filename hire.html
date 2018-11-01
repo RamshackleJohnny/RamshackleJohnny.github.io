@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>RamshackleJohnny</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans|Shadows+Into+Light" rel="stylesheet">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+<script>
+let first = document.getElementById("valone");
+var placetext = e.options[e.selectedIndex].text;
+
+const thetext = (placetext) => {
+  const l = document.createElement('p');
+   l.className = 'testResult';
+    l.classList.add(placetext);
+}
+</script>
+</head>
+
+<body>
+  <div class="wrap">
+    <nav>
+      <h1>RamshackleJohnny</h1>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="find.html">Find me</a>
+      <a href="ws.html">Work/School</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <!-- Fix br and class mainindex -->
+    <br>
+    <h1 class="hire">This page is a work in progress</h1>
+    <p class="hire">Looking to hire me? I'll let you know if i'm right for you. What kind of employee are you looking for?</p>
+    <h2 class="hire">Test one</h2>
+    <form>
+    <select id="valone">
+      <option value="1">Op 1</option>
+      <option value="2">Op 2</option>
+      <option value="3">Op 3</option>
+      <option value="4">Op 4</option>
+      <option value="5">Op 5</option>
+      <option value="6">Op 6</option>
+    </select>
+    <input type="submit" name="submit" id="submit">
+  </form>
+    <footer>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="find.html">Find me</a>
+        <a href="ws.html">Work/School</a>
+        <a href="projects.html">Projects</a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

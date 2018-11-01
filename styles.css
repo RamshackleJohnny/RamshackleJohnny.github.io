@@ -6,7 +6,15 @@
   height: 500px;
   background-color: #00000A;
 }
-
+/* hire page */
+.hire {
+max-width: 70%;
+min-width: 20%;
+color: white;
+text-align: center;
+margin: 0 auto;
+clear: left;
+}
 html {
   background-color: black;
 }
